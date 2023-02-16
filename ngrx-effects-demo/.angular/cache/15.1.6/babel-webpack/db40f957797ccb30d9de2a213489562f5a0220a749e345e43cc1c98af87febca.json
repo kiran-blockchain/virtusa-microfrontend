@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { createAction } from '@ngrx/store';\nexport const maskUserName = createAction('[User] Mask User Name');","map":null,"metadata":{},"sourceType":"module","externalDependencies":[]}
