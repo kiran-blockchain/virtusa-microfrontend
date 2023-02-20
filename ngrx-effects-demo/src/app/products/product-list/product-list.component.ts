@@ -24,7 +24,7 @@ export class ProductListComponent implements OnInit {
   constructor(private store: Store<State>) { }
 
   ngOnInit(): void {
-
+    
     this.products$ = this.store.select(getProducts);
 
     this.errorMessage$ = this.store.select(getError);
