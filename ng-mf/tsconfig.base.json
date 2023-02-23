@@ -15,6 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@ng-mf/shared/counter": ["libs/shared/counter/src/index.ts"],
       "@ng-mf/shared/data-access-user": [
         "libs/shared/data-access-user/src/index.ts"
       ]

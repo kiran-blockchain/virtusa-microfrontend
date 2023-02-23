@@ -3,4 +3,6 @@
   <li><a routerLink="login">Login</a></li>
   <li><a href="#">{{username}}</a></li>
 </ul>
+{{selectedState|json}}
+<button (click)="increment()">Increment</button>
 <router-outlet></router-outlet>
